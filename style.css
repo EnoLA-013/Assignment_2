@@ -65,8 +65,9 @@
    margin: 0 auto;
     
 }
-.navber .bars i{
+.navber i{
     display: none;
+    color: white;
 
 }
 
@@ -771,12 +772,13 @@ input{
     .nav-links {
         display: none;
     }
-    .bars {
+    .navber i{
         display: block;
-        background-color: white;
+        font-size: 20px;
+        margin-top: 3px;
     }
     .navber p{
-        font-size: 36px;
+        font-size: 38px;
     }
     /* banner */
     .inside{
@@ -790,13 +792,12 @@ input{
     }
     .left{
         width: 100%;
-        border: 2px solid white;
     }
     .left h5{
         font-size: 42px;
         line-height: 43.2px;
         margin-top: 12px;
-       
+        font-weight: 1200;
     }
     .left p{
         font-size: 18px;
@@ -808,7 +809,7 @@ input{
     .button{
         display: flex;
         gap: 10px;
-        width: 500px;
+        width: 400px;
     }
     .button-1{
         width: 165px;
@@ -820,21 +821,24 @@ input{
         width: 100%;
     }
     .right img{
-        width: 350px;
+        width: 345px;
         height: 570px;
-        margin-left: 85px;
+        margin-left: 35px;
     }
     
     .video-1{
         margin-top: -328px;
-        margin-left: 44px;
+        margin-left: 38px;
+        width: 180px;
+        height: 80px;
     }
     .video-1 i{
         margin-top: -2.5px;
     }
     .video-2{
         margin-top: -280px;
-        margin-left: 280px;
+        margin-left: 220px;
+        width: 184px;
     }
     /* habits */
     .part-2{
@@ -990,6 +994,12 @@ input{
         width: 250px;
         margin: 0 auto;
         margin-top: -35px;
+    }
+    .box-4{
+        display: none;
+    }
+    .box-5{
+        display: none;
     }
     .box{
         display: grid;
