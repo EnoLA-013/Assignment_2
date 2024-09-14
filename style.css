@@ -16,7 +16,9 @@
 .shape{
     font-family: Miama;
     font-weight: 400;
-    font-size: 78px;
+    font-size: 125px;
+    line-height: 43.2px;
+    font-style: italic;
 }
 .homepage{
     background-color: black; 
@@ -51,8 +53,10 @@
 }
 .navber p{
     color: rgba(239, 71, 10, 0.944);
-    font-size: 38px;
-    font-weight: 800;
+    font-size: 58px;
+    font-weight: 900;
+    font-style: italic;
+
 }
 .navber{
    justify-content: space-between;
@@ -61,6 +65,11 @@
    margin: 0 auto;
     
 }
+.navber .bars i{
+    display: none;
+
+}
+
 /* banner styles */
 .banner{
     justify-content: space-between;
@@ -78,15 +87,13 @@
 .left{
     width: 50%;
 }
-/* .shape{
-    font-family: Miami;
-    font-size: 78px;
-    font-weight: 400;
-} */
+
 .left h5{
     color: white;
-    font-size: 58px;
+    font-size: 78px;
     font-weight: 900;
+    line-height: 73.2px;
+    margin-top: 105px;
 }
 .left p{
     color:rgba(255, 255, 255, 0.50);
@@ -99,7 +106,7 @@
 }
 .right img{
     width: 350px;
-    height: 570px;
+    height: 580px;
     margin-left: 140px;
 }
 a{
@@ -148,12 +155,19 @@ li{
     margin-top: -152px;
     margin-left: 44px;
 }
+.video-1 i{
+    color: white;
+    position: absolute;
+    margin-left: -105px;
+    margin-top: -1.5px;
+}
 .circle{
     border: 1px solid rgba(239, 71, 10, 0.944)e;
     width: 40px;
     height: 40px;
     border-radius: 50px;
     background-color:  rgba(239, 71, 10, 0.944);
+    position: relative;
 }
 .tutorial p{
     color: rgba(255, 255, 255, 0.50);
@@ -289,6 +303,7 @@ li{
 }
 .text p{
     color:  rgba(255, 255, 255, 0.50);
+    width: 550px;
     margin-top: -30px;
 }
 .img-part{
@@ -304,32 +319,189 @@ li{
 } 
 .row-1{
     display: flex;
-    height: 60%;
+    
 }
 
-#img-1{
-    width: 25%;
-    background-image: linear-gradient(#06FFD2);
+.img-1{
+    width: 26%;
+    height: 0 auto;
+    position: relative;
+}
+.absolute1{
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: -68px;
+    margin-left: 18px;
+}
+.img-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.gradient{
+    width: 100%;
+    height: 100%;
+    background-image: 
+        linear-gradient(0deg, rgba(6, 255, 210, 0.5)0%, rgba(6, 255, 210, 0.50) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    
 }
 .img-2{
     width: 45%;
+    height: 0 auto;
+    position: relative;
+}
+.img-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.gradient1{
+    width: 100%;
+    height: 100%;
+    background-image: 
+     linear-gradient(0deg, rgba(255, 0, 0, 0.30) 0%, rgba(255, 0, 0, 0.30) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
     
 }
+.absolute2{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: -245px;
+    margin-left: 28px;
+}
 .img-3{
-    width: 30%;
+    width: 29%;
+    height: 0 auto;
+    position: relative;
+}
+.img-3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.gradient2{
+    width: 100%;
+    height: 100%;
+    background-image: 
+     linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
     
+}
+.absolute3{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: -70px;
+    margin-left: 20px;
 }
 .row-2{
     display: flex;
 }
 .img-4{
     width: 40%;
+    height: 0 auto;
+    position: relative;
+}
+.img-4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.gradient3{
+    width: 100%;
+    height: 100%;
+    background-image: 
+     linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.absolute4{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: -230px;
+    margin-left: 265px;
 }
 .img-5{
     width: 28%;
+    height: 0 auto;
+    position: relative;
+}
+.img-5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.gradient4{
+    width: 100%;
+    height: 100%;
+    background-image: 
+     linear-gradient(0deg, rgba(66, 255, 0, 0.30) 0%, rgba(66, 255, 0, 0.30) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.absolute5{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: -70px;
+    margin-left: 20px;
 }
 .img-6{
     width: 32%;
+    height: 0 auto;
+    position: relative;
+}
+.img-6 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.gradient5{
+    width: 100%;
+    height: 100%;
+    background-image: 
+     linear-gradient(0deg, rgba(0, 71, 255, 0.30) 0%, rgba(0, 71, 255, 0.30) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.absolute6{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: -70px;
+    margin-left: 20px;
 }
 
 /* bmi calculator styles start */
@@ -348,10 +520,11 @@ li{
 }
 .calculator p{
     color: rgba(255, 255, 255, 0.50);
+    width: 480px;
     margin-top: -35px;
     margin-left: 230px;
 }
-.widerbox{
+.BMI-calculator{
     background-color: rgba(255, 255, 255, 0.10);
     
 }
@@ -413,20 +586,29 @@ td{
     gap: 10px;
     margin-top: 25px;
 }
-
 .row2{
     display: flex;
     gap: 10px;
+    
 }
-.relative1{
-    position: relative;
-}
-.absolute{
-    position: absolute;
-    color: white;
-}
+
+
 .row3{
     width: 96%;
+    position: relative;
+}
+i{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.50);
+    margin-left: 545px;
+    margin-top: -28px;
+}
+.input4{
+    position: relative;
+}
+.input4 i{
+    position: absolute;
+    color: white;
 }
 input{
     width: 100%;
@@ -467,6 +649,8 @@ input{
 }
 .meet p{
     color: rgba(255, 255, 255, 0.50);
+    width: 400px;
+    margin: 0 auto;
     margin-top: -35px;
 }
 .box{
@@ -517,19 +701,27 @@ input{
     justify-content: space-between;
     padding: 15px;
 }
+.start-part{
+    width: 500px;
+}
 .start-part h3{
     color: rgba(239, 71, 10, 0.944);
     font-size: 58px;
     font-weight: 1200;
     margin-top: 25px;
+    font-style: italic;
 }
 .start-part p{
     color: rgba(255, 255, 255, 0.50);
     margin-top: -30px;
+    
+}
+.middle-part{
+    width: 150px;
 }
 .middle-part h3{
     color: white;
-    font-size: 25px;
+    font-size: 26px;
     font-weight: 800;
 }
 .middle-part li{
@@ -543,9 +735,12 @@ input{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.50);
 }
+.last-part{
+    width: 150px;
+}
 .last-part h3{
     color: white;
-    font-size: 25px;
+    font-size: 26px;
     font-weight: 800;
 }
 .last-part li{
@@ -568,5 +763,257 @@ input{
 }
 .bottom p{
     color: rgba(255, 255, 255, 0.50);
-    padding: 20px;
+    padding: 16px;
+    margin-top: -5px;
+}
+/* responsive style */
+@media screen and (max-width: 425px){
+    .nav-links {
+        display: none;
+    }
+    .bars {
+        display: block;
+        background-color: white;
+    }
+    .navber p{
+        font-size: 36px;
+    }
+    /* banner */
+    .inside{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 425px;
+    }
+    .shape{
+        font-size: 62px;
+        line-height: 43.2px;
+    }
+    .left{
+        width: 100%;
+        border: 2px solid white;
+    }
+    .left h5{
+        font-size: 42px;
+        line-height: 43.2px;
+        margin-top: 12px;
+       
+    }
+    .left p{
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 1px;
+        margin-top: -30px;
+        width: 300px;
+    }
+    .button{
+        display: flex;
+        gap: 10px;
+        width: 500px;
+    }
+    .button-1{
+        width: 165px;
+    }
+    .button-2{
+        width: 165px;
+    }
+    .right{
+        width: 100%;
+    }
+    .right img{
+        width: 350px;
+        height: 570px;
+        margin-left: 85px;
+    }
+    
+    .video-1{
+        margin-top: -328px;
+        margin-left: 44px;
+    }
+    .video-1 i{
+        margin-top: -2.5px;
+    }
+    .video-2{
+        margin-top: -280px;
+        margin-left: 280px;
+    }
+    /* habits */
+    .part-2{
+        margin-top: 414px;
+    }
+    .part-2 h3{
+        font-size: 32px;
+    }
+    .part-2 p{
+        font-size: 14px;
+        width: 290px;
+        margin: 0 auto;
+        margin-top: -23px;
+    }
+    .four-img{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 290px;
+       
+    }
+    .images img{
+        width: 158px;
+        height: 158px;
+        border-radius: 60%;
+        border: 2px solid rgba(253, 250, 250, 0.5);
+        margin: 0 auto;
+        margin-left: 48px;
+    }
+    .images p{
+        width: 250px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    /* part 3 styles */
+    .extra{
+        margin-top: 35px;
+        
+    }
+    .third-part{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        border-radius: 20px;
+        align-items: center;
+        padding: 60px 34px 30px 34px;
+    }
+    /* training style */
+    .text{
+        margin-top: 80px;
+    }
+    .text h3{
+        font-size: 42px;
+    }
+    .img-3{
+        display: none;
+    }
+    .img-6{
+        display: none;
+    }
+    .img-part{
+        width: 400px;
+    }
+    .row-1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    .img-1{
+        width: 100%;
+    }
+    .absolute1{
+        font-size: medium;
+        margin-top: -50px;
+    }
+    .img-2{
+        width: 100%;
+    }
+    .absolute2{
+        margin-top: -140px;
+        font-size: medium;
+    }
+    .img-4{
+        width: 90%;
+    }
+    .absolute4{
+        position: absolute;
+        color: white;
+        font-size: medium;
+        margin-top: -50px;
+        margin-left: 20px;
+    }
+    .img-5{
+        width: 110%;
+    }
+    .absolute5{
+        font-size: medium;
+        margin-top: -50px;
+        margin-left: 18px;
+    }
+    /* BMI calculator */
+   
+    .calculator{ 
+        width: 400px;
+        margin-top: 90px;
+  
+    }
+    .calculator h3{
+        font-size: 42px;
+        margin-left: 2px;
+    }
+    .calculator p{
+        margin-top: -35px;
+        margin-left: 2px;
+    }
+    .challange{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+   
+    }
+
+    .chart h3{
+        font-size: 22px;
+        margin-top: 40px;
+    }
+    .bmi_cal h3{
+        font-size: 22px;
+    }
+    .bmi_cal p{
+        font-size: 16px;
+        margin-top: 25px;
+    }
+    .row3{
+        width: 94%;
+    }
+    i{
+        margin-left: 382px;
+        margin-top: -23px;
+    }
+    /* meet section */
+    .our-team{
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .meet{
+        text-align: center;
+    }
+    .meet h3{
+        font-size: 42px;
+    }
+    .meet p{
+        width: 250px;
+        margin: 0 auto;
+        margin-top: -35px;
+    }
+    .box{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 22px;
+        margin-top: 50px;
+    }
+    
+    .absolute{
+        margin-top: -100px;
+        margin-left: 15px;
+    }
+    .absolute h3{
+        font-size: 18px;
+    }
+    .absolute p{
+        margin-top: -20px;
+    }
+    /* footer area */
+    .conclution{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .start-part p{
+        width: 350px;
+    }
 }
